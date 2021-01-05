@@ -1,0 +1,807 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A08182ED06D7AE9F4D8EA09 /* Pods_SWTCPManageTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEA2C1C47EA6C4010B17DAB /* Pods_SWTCPManageTests.framework */; };
+		498C9702BF976AED90B86177 /* Pods_SWTCPManage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9853B0869EC8A836E5BDA8 /* Pods_SWTCPManage.framework */; };
+		648F320225A40ABF00506D99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 648F320125A40ABF00506D99 /* AppDelegate.m */; };
+		648F320525A40ABF00506D99 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 648F320425A40ABF00506D99 /* SceneDelegate.m */; };
+		648F320825A40ABF00506D99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 648F320725A40ABF00506D99 /* ViewController.m */; };
+		648F320B25A40ABF00506D99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 648F320925A40ABF00506D99 /* Main.storyboard */; };
+		648F320D25A40AC500506D99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 648F320C25A40AC500506D99 /* Assets.xcassets */; };
+		648F321025A40AC500506D99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 648F320E25A40AC500506D99 /* LaunchScreen.storyboard */; };
+		648F321325A40AC500506D99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 648F321225A40AC500506D99 /* main.m */; };
+		648F321D25A40AC600506D99 /* SWTCPManageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 648F321C25A40AC600506D99 /* SWTCPManageTests.m */; };
+		648F322825A40AC600506D99 /* SWTCPManageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 648F322725A40AC600506D99 /* SWTCPManageUITests.m */; };
+		648F324A25A40D8500506D99 /* SWTCPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 648F324925A40D8500506D99 /* SWTCPManager.m */; };
+		648F325D25A4132E00506D99 /* SWNettySocketMsg.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 648F325C25A4132E00506D99 /* SWNettySocketMsg.pbobjc.m */; };
+		648F327125A437B700506D99 /* Msg+msg_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 648F327025A437B700506D99 /* Msg+msg_Extension.m */; };
+		648F328425A43DBD00506D99 /* SWChatTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 648F328325A43DBD00506D99 /* SWChatTool.m */; };
+		648F328D25A43E2200506D99 /* SWConversationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 648F328C25A43E2200506D99 /* SWConversationManager.m */; };
+		648F329325A4429600506D99 /* ChatMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 648F329225A4429600506D99 /* ChatMessageModel.m */; };
+		648F329F25A44B7900506D99 /* ChatConverModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 648F329E25A44B7900506D99 /* ChatConverModel.m */; };
+		648F331125A4505700506D99 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 648F331025A4505700506D99 /* ChatViewController.m */; };
+		72E4D9FFA1B626F8B646F4C3 /* Pods_SWTCPManage_SWTCPManageUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF19872A7B2782E484C2666 /* Pods_SWTCPManage_SWTCPManageUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		648F321925A40AC600506D99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 648F31F525A40ABF00506D99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 648F31FC25A40ABF00506D99;
+			remoteInfo = SWTCPManage;
+		};
+		648F322425A40AC600506D99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 648F31F525A40ABF00506D99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 648F31FC25A40ABF00506D99;
+			remoteInfo = SWTCPManage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0221B2D6A0E4B2515101C295 /* Pods-SWTCPManageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWTCPManageTests.release.xcconfig"; path = "Target Support Files/Pods-SWTCPManageTests/Pods-SWTCPManageTests.release.xcconfig"; sourceTree = "<group>"; };
+		48693BDA702A403D9D19AB36 /* Pods-SWTCPManageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWTCPManageTests.debug.xcconfig"; path = "Target Support Files/Pods-SWTCPManageTests/Pods-SWTCPManageTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4CF19872A7B2782E484C2666 /* Pods_SWTCPManage_SWTCPManageUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWTCPManage_SWTCPManageUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		648F31FD25A40ABF00506D99 /* SWTCPManage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWTCPManage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		648F320025A40ABF00506D99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		648F320125A40ABF00506D99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		648F320325A40ABF00506D99 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		648F320425A40ABF00506D99 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		648F320625A40ABF00506D99 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		648F320725A40ABF00506D99 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		648F320A25A40ABF00506D99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		648F320C25A40AC500506D99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		648F320F25A40AC500506D99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		648F321125A40AC500506D99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		648F321225A40AC500506D99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		648F321825A40AC600506D99 /* SWTCPManageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWTCPManageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		648F321C25A40AC600506D99 /* SWTCPManageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWTCPManageTests.m; sourceTree = "<group>"; };
+		648F321E25A40AC600506D99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		648F322325A40AC600506D99 /* SWTCPManageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWTCPManageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		648F322725A40AC600506D99 /* SWTCPManageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWTCPManageUITests.m; sourceTree = "<group>"; };
+		648F322925A40AC600506D99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		648F324825A40D8500506D99 /* SWTCPManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWTCPManager.h; sourceTree = "<group>"; };
+		648F324925A40D8500506D99 /* SWTCPManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWTCPManager.m; sourceTree = "<group>"; };
+		648F325B25A4132C00506D99 /* SWNettySocketMsg.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWNettySocketMsg.pbobjc.h; sourceTree = "<group>"; };
+		648F325C25A4132E00506D99 /* SWNettySocketMsg.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWNettySocketMsg.pbobjc.m; sourceTree = "<group>"; };
+		648F326F25A437B700506D99 /* Msg+msg_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Msg+msg_Extension.h"; sourceTree = "<group>"; };
+		648F327025A437B700506D99 /* Msg+msg_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Msg+msg_Extension.m"; sourceTree = "<group>"; };
+		648F328225A43DBD00506D99 /* SWChatTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWChatTool.h; sourceTree = "<group>"; };
+		648F328325A43DBD00506D99 /* SWChatTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWChatTool.m; sourceTree = "<group>"; };
+		648F328B25A43E2200506D99 /* SWConversationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWConversationManager.h; sourceTree = "<group>"; };
+		648F328C25A43E2200506D99 /* SWConversationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWConversationManager.m; sourceTree = "<group>"; };
+		648F329125A4429600506D99 /* ChatMessageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatMessageModel.h; sourceTree = "<group>"; };
+		648F329225A4429600506D99 /* ChatMessageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatMessageModel.m; sourceTree = "<group>"; };
+		648F329D25A44B7900506D99 /* ChatConverModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatConverModel.h; sourceTree = "<group>"; };
+		648F329E25A44B7900506D99 /* ChatConverModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatConverModel.m; sourceTree = "<group>"; };
+		648F330F25A4505700506D99 /* ChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		648F331025A4505700506D99 /* ChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		67A82CBF26AEFDFEFE91CDE0 /* Pods-SWTCPManage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWTCPManage.release.xcconfig"; path = "Target Support Files/Pods-SWTCPManage/Pods-SWTCPManage.release.xcconfig"; sourceTree = "<group>"; };
+		BFEA2C1C47EA6C4010B17DAB /* Pods_SWTCPManageTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWTCPManageTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF9853B0869EC8A836E5BDA8 /* Pods_SWTCPManage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWTCPManage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D791C0CF2B13323C0375CC5C /* Pods-SWTCPManage-SWTCPManageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWTCPManage-SWTCPManageUITests.release.xcconfig"; path = "Target Support Files/Pods-SWTCPManage-SWTCPManageUITests/Pods-SWTCPManage-SWTCPManageUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F2B8BB8B4090AF3FC29C0D03 /* Pods-SWTCPManage-SWTCPManageUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWTCPManage-SWTCPManageUITests.debug.xcconfig"; path = "Target Support Files/Pods-SWTCPManage-SWTCPManageUITests/Pods-SWTCPManage-SWTCPManageUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6795CC266B8FDCC4A6F2726 /* Pods-SWTCPManage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWTCPManage.debug.xcconfig"; path = "Target Support Files/Pods-SWTCPManage/Pods-SWTCPManage.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		648F31FA25A40ABF00506D99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498C9702BF976AED90B86177 /* Pods_SWTCPManage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		648F321525A40AC600506D99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A08182ED06D7AE9F4D8EA09 /* Pods_SWTCPManageTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		648F322025A40AC600506D99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72E4D9FFA1B626F8B646F4C3 /* Pods_SWTCPManage_SWTCPManageUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		648F31F425A40ABF00506D99 = {
+			isa = PBXGroup;
+			children = (
+				648F31FF25A40ABF00506D99 /* SWTCPManage */,
+				648F321B25A40AC600506D99 /* SWTCPManageTests */,
+				648F322625A40AC600506D99 /* SWTCPManageUITests */,
+				648F31FE25A40ABF00506D99 /* Products */,
+				E57AA1E16ECD90ABD39884ED /* Pods */,
+				C5D22B9258A72E31F545AA9C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		648F31FE25A40ABF00506D99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				648F31FD25A40ABF00506D99 /* SWTCPManage.app */,
+				648F321825A40AC600506D99 /* SWTCPManageTests.xctest */,
+				648F322325A40AC600506D99 /* SWTCPManageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		648F31FF25A40ABF00506D99 /* SWTCPManage */ = {
+			isa = PBXGroup;
+			children = (
+				648F328125A43DAC00506D99 /* SWChatTool */,
+				648F324725A40D6A00506D99 /* SWNettyScoket */,
+				648F320025A40ABF00506D99 /* AppDelegate.h */,
+				648F320125A40ABF00506D99 /* AppDelegate.m */,
+				648F320325A40ABF00506D99 /* SceneDelegate.h */,
+				648F320425A40ABF00506D99 /* SceneDelegate.m */,
+				648F320625A40ABF00506D99 /* ViewController.h */,
+				648F320725A40ABF00506D99 /* ViewController.m */,
+				648F330F25A4505700506D99 /* ChatViewController.h */,
+				648F331025A4505700506D99 /* ChatViewController.m */,
+				648F320925A40ABF00506D99 /* Main.storyboard */,
+				648F320C25A40AC500506D99 /* Assets.xcassets */,
+				648F320E25A40AC500506D99 /* LaunchScreen.storyboard */,
+				648F321125A40AC500506D99 /* Info.plist */,
+				648F321225A40AC500506D99 /* main.m */,
+			);
+			path = SWTCPManage;
+			sourceTree = "<group>";
+		};
+		648F321B25A40AC600506D99 /* SWTCPManageTests */ = {
+			isa = PBXGroup;
+			children = (
+				648F321C25A40AC600506D99 /* SWTCPManageTests.m */,
+				648F321E25A40AC600506D99 /* Info.plist */,
+			);
+			path = SWTCPManageTests;
+			sourceTree = "<group>";
+		};
+		648F322625A40AC600506D99 /* SWTCPManageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				648F322725A40AC600506D99 /* SWTCPManageUITests.m */,
+				648F322925A40AC600506D99 /* Info.plist */,
+			);
+			path = SWTCPManageUITests;
+			sourceTree = "<group>";
+		};
+		648F324725A40D6A00506D99 /* SWNettyScoket */ = {
+			isa = PBXGroup;
+			children = (
+				648F324825A40D8500506D99 /* SWTCPManager.h */,
+				648F324925A40D8500506D99 /* SWTCPManager.m */,
+				648F325B25A4132C00506D99 /* SWNettySocketMsg.pbobjc.h */,
+				648F325C25A4132E00506D99 /* SWNettySocketMsg.pbobjc.m */,
+				648F326F25A437B700506D99 /* Msg+msg_Extension.h */,
+				648F327025A437B700506D99 /* Msg+msg_Extension.m */,
+			);
+			path = SWNettyScoket;
+			sourceTree = "<group>";
+		};
+		648F328125A43DAC00506D99 /* SWChatTool */ = {
+			isa = PBXGroup;
+			children = (
+				648F328225A43DBD00506D99 /* SWChatTool.h */,
+				648F328325A43DBD00506D99 /* SWChatTool.m */,
+				648F328B25A43E2200506D99 /* SWConversationManager.h */,
+				648F328C25A43E2200506D99 /* SWConversationManager.m */,
+				648F329125A4429600506D99 /* ChatMessageModel.h */,
+				648F329225A4429600506D99 /* ChatMessageModel.m */,
+				648F329D25A44B7900506D99 /* ChatConverModel.h */,
+				648F329E25A44B7900506D99 /* ChatConverModel.m */,
+			);
+			path = SWChatTool;
+			sourceTree = SOURCE_ROOT;
+		};
+		C5D22B9258A72E31F545AA9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF9853B0869EC8A836E5BDA8 /* Pods_SWTCPManage.framework */,
+				4CF19872A7B2782E484C2666 /* Pods_SWTCPManage_SWTCPManageUITests.framework */,
+				BFEA2C1C47EA6C4010B17DAB /* Pods_SWTCPManageTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E57AA1E16ECD90ABD39884ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6795CC266B8FDCC4A6F2726 /* Pods-SWTCPManage.debug.xcconfig */,
+				67A82CBF26AEFDFEFE91CDE0 /* Pods-SWTCPManage.release.xcconfig */,
+				F2B8BB8B4090AF3FC29C0D03 /* Pods-SWTCPManage-SWTCPManageUITests.debug.xcconfig */,
+				D791C0CF2B13323C0375CC5C /* Pods-SWTCPManage-SWTCPManageUITests.release.xcconfig */,
+				48693BDA702A403D9D19AB36 /* Pods-SWTCPManageTests.debug.xcconfig */,
+				0221B2D6A0E4B2515101C295 /* Pods-SWTCPManageTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		648F31FC25A40ABF00506D99 /* SWTCPManage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 648F322C25A40AC600506D99 /* Build configuration list for PBXNativeTarget "SWTCPManage" */;
+			buildPhases = (
+				575079EB5608F381AA242BC9 /* [CP] Check Pods Manifest.lock */,
+				648F31F925A40ABF00506D99 /* Sources */,
+				648F31FA25A40ABF00506D99 /* Frameworks */,
+				648F31FB25A40ABF00506D99 /* Resources */,
+				084735B7114F15E5C0377E22 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SWTCPManage;
+			productName = SWTCPManage;
+			productReference = 648F31FD25A40ABF00506D99 /* SWTCPManage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		648F321725A40AC600506D99 /* SWTCPManageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 648F322F25A40AC600506D99 /* Build configuration list for PBXNativeTarget "SWTCPManageTests" */;
+			buildPhases = (
+				8D5D9F17873190EA2E40EDC1 /* [CP] Check Pods Manifest.lock */,
+				648F321425A40AC600506D99 /* Sources */,
+				648F321525A40AC600506D99 /* Frameworks */,
+				648F321625A40AC600506D99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				648F321A25A40AC600506D99 /* PBXTargetDependency */,
+			);
+			name = SWTCPManageTests;
+			productName = SWTCPManageTests;
+			productReference = 648F321825A40AC600506D99 /* SWTCPManageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		648F322225A40AC600506D99 /* SWTCPManageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 648F323225A40AC600506D99 /* Build configuration list for PBXNativeTarget "SWTCPManageUITests" */;
+			buildPhases = (
+				7293C8290598BC26808A2B3B /* [CP] Check Pods Manifest.lock */,
+				648F321F25A40AC600506D99 /* Sources */,
+				648F322025A40AC600506D99 /* Frameworks */,
+				648F322125A40AC600506D99 /* Resources */,
+				6171AC8DBFEFB48923B661BE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				648F322525A40AC600506D99 /* PBXTargetDependency */,
+			);
+			name = SWTCPManageUITests;
+			productName = SWTCPManageUITests;
+			productReference = 648F322325A40AC600506D99 /* SWTCPManageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		648F31F525A40ABF00506D99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					648F31FC25A40ABF00506D99 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					648F321725A40AC600506D99 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 648F31FC25A40ABF00506D99;
+					};
+					648F322225A40AC600506D99 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 648F31FC25A40ABF00506D99;
+					};
+				};
+			};
+			buildConfigurationList = 648F31F825A40ABF00506D99 /* Build configuration list for PBXProject "SWTCPManage" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 648F31F425A40ABF00506D99;
+			productRefGroup = 648F31FE25A40ABF00506D99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				648F31FC25A40ABF00506D99 /* SWTCPManage */,
+				648F321725A40AC600506D99 /* SWTCPManageTests */,
+				648F322225A40AC600506D99 /* SWTCPManageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		648F31FB25A40ABF00506D99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648F321025A40AC500506D99 /* LaunchScreen.storyboard in Resources */,
+				648F320D25A40AC500506D99 /* Assets.xcassets in Resources */,
+				648F320B25A40ABF00506D99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		648F321625A40AC600506D99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		648F322125A40AC600506D99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		084735B7114F15E5C0377E22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SWTCPManage/Pods-SWTCPManage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SWTCPManage/Pods-SWTCPManage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SWTCPManage/Pods-SWTCPManage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		575079EB5608F381AA242BC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SWTCPManage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6171AC8DBFEFB48923B661BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SWTCPManage-SWTCPManageUITests/Pods-SWTCPManage-SWTCPManageUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SWTCPManage-SWTCPManageUITests/Pods-SWTCPManage-SWTCPManageUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SWTCPManage-SWTCPManageUITests/Pods-SWTCPManage-SWTCPManageUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7293C8290598BC26808A2B3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SWTCPManage-SWTCPManageUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D5D9F17873190EA2E40EDC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SWTCPManageTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		648F31F925A40ABF00506D99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648F320825A40ABF00506D99 /* ViewController.m in Sources */,
+				648F327125A437B700506D99 /* Msg+msg_Extension.m in Sources */,
+				648F331125A4505700506D99 /* ChatViewController.m in Sources */,
+				648F320225A40ABF00506D99 /* AppDelegate.m in Sources */,
+				648F329325A4429600506D99 /* ChatMessageModel.m in Sources */,
+				648F321325A40AC500506D99 /* main.m in Sources */,
+				648F328D25A43E2200506D99 /* SWConversationManager.m in Sources */,
+				648F320525A40ABF00506D99 /* SceneDelegate.m in Sources */,
+				648F329F25A44B7900506D99 /* ChatConverModel.m in Sources */,
+				648F324A25A40D8500506D99 /* SWTCPManager.m in Sources */,
+				648F325D25A4132E00506D99 /* SWNettySocketMsg.pbobjc.m in Sources */,
+				648F328425A43DBD00506D99 /* SWChatTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		648F321425A40AC600506D99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648F321D25A40AC600506D99 /* SWTCPManageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		648F321F25A40AC600506D99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648F322825A40AC600506D99 /* SWTCPManageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		648F321A25A40AC600506D99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 648F31FC25A40ABF00506D99 /* SWTCPManage */;
+			targetProxy = 648F321925A40AC600506D99 /* PBXContainerItemProxy */;
+		};
+		648F322525A40AC600506D99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 648F31FC25A40ABF00506D99 /* SWTCPManage */;
+			targetProxy = 648F322425A40AC600506D99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		648F320925A40ABF00506D99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				648F320A25A40ABF00506D99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		648F320E25A40AC500506D99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				648F320F25A40AC500506D99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		648F322A25A40AC600506D99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		648F322B25A40AC600506D99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		648F322D25A40AC600506D99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6795CC266B8FDCC4A6F2726 /* Pods-SWTCPManage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SWTCPManage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swIm.SWTCPManage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		648F322E25A40AC600506D99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67A82CBF26AEFDFEFE91CDE0 /* Pods-SWTCPManage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SWTCPManage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swIm.SWTCPManage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		648F323025A40AC600506D99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48693BDA702A403D9D19AB36 /* Pods-SWTCPManageTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SWTCPManageTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swIm.SWTCPManageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SWTCPManage.app/SWTCPManage";
+			};
+			name = Debug;
+		};
+		648F323125A40AC600506D99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0221B2D6A0E4B2515101C295 /* Pods-SWTCPManageTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SWTCPManageTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swIm.SWTCPManageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SWTCPManage.app/SWTCPManage";
+			};
+			name = Release;
+		};
+		648F323325A40AC600506D99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2B8BB8B4090AF3FC29C0D03 /* Pods-SWTCPManage-SWTCPManageUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SWTCPManageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swIm.SWTCPManageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SWTCPManage;
+			};
+			name = Debug;
+		};
+		648F323425A40AC600506D99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D791C0CF2B13323C0375CC5C /* Pods-SWTCPManage-SWTCPManageUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SWTCPManageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swIm.SWTCPManageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SWTCPManage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		648F31F825A40ABF00506D99 /* Build configuration list for PBXProject "SWTCPManage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				648F322A25A40AC600506D99 /* Debug */,
+				648F322B25A40AC600506D99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		648F322C25A40AC600506D99 /* Build configuration list for PBXNativeTarget "SWTCPManage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				648F322D25A40AC600506D99 /* Debug */,
+				648F322E25A40AC600506D99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		648F322F25A40AC600506D99 /* Build configuration list for PBXNativeTarget "SWTCPManageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				648F323025A40AC600506D99 /* Debug */,
+				648F323125A40AC600506D99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		648F323225A40AC600506D99 /* Build configuration list for PBXNativeTarget "SWTCPManageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				648F323325A40AC600506D99 /* Debug */,
+				648F323425A40AC600506D99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 648F31F525A40ABF00506D99 /* Project object */;
+}
