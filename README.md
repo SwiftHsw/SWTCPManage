@@ -83,6 +83,7 @@ success:^(ChatMessageModel * _Nonnull messageModel) {
  ```
 
  ### 文件
+  ```
 ChatMessageModel *message4 = [ChatMessageModel creatMessageModelWithType:SWMessageTypeFile];
 message4.fileName = @"文件名";
 NSData *data = [NSData dataWithContentsOfFile:[NSString stringWithFormat:@"路径/%@",@"文件名"]];
@@ -93,8 +94,8 @@ success:^(ChatMessageModel * _Nonnull messageModel) {
 } fail:^(ChatMessageModel * _Nonnull messageModel) {
     
 }];
-
-//图片
+ ```
+ ### 图片
  ```
 ChatMessageModel *message5 = [ChatMessageModel creatMessageModelWithType:SWMessageTypeImage];
 message5.imagePath = @"imagePath" ;
