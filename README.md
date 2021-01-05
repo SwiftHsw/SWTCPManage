@@ -1,0 +1,2 @@
+# SWTCPManage
+im初始系统，基于CocoaAsyncSocket+Protobuf的原生socket封装
